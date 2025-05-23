@@ -1,97 +1,47 @@
-# projeto-final-qa-Walter-
-1. Apresentação
-Nome completo
+Apresentação
+Meu nome é Walter Pereira de Souza, curso Gest~ao de T.I, semestre 5º. Minha experiência na disciplina de QA foi muito positiva, pois aprendi a importância dos testes e da qualidade no desenvolvimento de software.
 
+O que é Quality Assurance (QA)?
+QA é o processo de garantir que um software funcione corretamente e sem erros, para que os usuários tenham uma boa experiência. É importante porque evita problemas e custos futuros.
 
-Curso e semestre
+Conceitos Aprendidos
+Aprendi sobre a cultura de qualidade, tipos de testes (unitário, integração, sistema, aceitação, regressão e exploratório), planejamento de testes com critérios e casos, uso de ferramentas como Colab e GitHub, automação integrada a CI/CD, e monitoramento com métricas e rastreamento de bugs.
 
+Ferramentas e Sites Utilizados
+Mistral
 
-Um parágrafo com uma breve descrição da sua experiência com a disciplina
+Google Colab
 
+GitHub
 
-2. O que é Quality Assurance (QA)?
-Explique com suas palavras o conceito de QA e sua importância no desenvolvimento de software
-
-
-Use uma linguagem simples e acessível, como se estivesse explicando para alguém leigo
-
-
-3. Conceitos Aprendidos Durante o Semestre
-Escreva um parágrafo explicando o que você aprendeu sobre:
-Qualidade em software e cultura de qualidade
-
-
-Tipos de testes (unitário, integração, sistema, aceitação, regressão e exploratório)
-
-
-Planejamento de testes (critérios de aceitação, planos e casos de teste)
-
-
-Ferramentas de testes utilizadas durante o semestre (Colab, GitHub, etc.)
-
-
-Automação de testes e integração com CI/CD
-
-
-Monitoramento e controle de qualidade (uso de métricas, rastreamento de bugs, observabilidade)
-
-
-4. Ferramentas e Sites Utilizados
-Liste todos os sites e ferramentas que você usou durante o curso, por exemplo:
-https://reqres.in/
-
-
-https://colab.research.google.com/ 
-
-
-https://github.com/
-
-
-https://uptimerobot.com/
-
-
-(outros que desejar incluir)
-
-
-5. Explicação dos Testes Entregues
-Para cada um dos três testes obrigatórios entregues na pasta /testes, responda:
-Nome do teste
-
-
-Objetivo
-
-
-Qual biblioteca Python foi utilizada
-
-
-Qual resultado esperado
-
-
-Link para o arquivo (ex: testes/teste_01.py)
-
-
-Exemplo de formatação:
-
-✅ Teste 01 – Verificação de status da API ReqRes
+Explicação dos Testes Entregues
+✅ Teste 01 – Verificação status API
 Biblioteca: Requests
+Objetivo: Confirmar retorno HTTP 200
+Erro:File "<ipython-input-18-7b3db2d09e31>", line 20
+    3. print("Multiplicação") # Erro 1: Apenas o número da opção está errado.
+       ^
+SyntaxError: invalid syntax
+
+✅ Teste 02 – Criação de usuário
+Biblioteca: Requests
+Objetivo: Validar criação com sucesso
+Erro: File "<ipython-input-9-4b4d97cff4d2>", line 11
+    if y = 0:  # Erro 1: Atribuição em vez de comparação
+       ^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
 
 
-Objetivo: Verificar se o endpoint retorna status HTTP 200
+✅ Teste 03 – Regressão login
+Biblioteca: Selenium
+Objetivo: Garantir funcionamento após atualizações
+Resoluçao:Selecione a operação:
+1. Adição
+2. Subtração
+3. Multiplicação
+4. Divisão
+Digite sua escolha (1/2/3/4)
 
+Conclusão Final
+Aprendi que QA é essencial para evitar erros e melhorar a qualidade do software. Vejo essa área como fundamental para minha carreira, e a automação de testes foi o tema que mais me interessou pela agilidade que proporciona.
 
-Resultado esperado: Teste passa com sucesso se o status for 200
-
-
-Arquivo: testes/teste_01.py
-
-
-
-6. Conclusão Final
-Escreva um parágrafo com sua reflexão pessoal, respondendo:
-O que você aprendeu de mais importante?
-
-
-Como você enxerga a área de QA no seu futuro profissional?
-
-
-Qual ferramenta ou tema mais chamou sua atenção e por quê?
